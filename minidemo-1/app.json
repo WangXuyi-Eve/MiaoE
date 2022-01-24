@@ -1,0 +1,43 @@
+{
+    "pages": [
+        "pages/homeZone/userInfoShow/userInfoShow",
+        "pages/inputZone/passageShow/passageShow",
+        "pages/inputZone/inputDefault/inputDefault"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#a4c2f4",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "MiaoE"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/inputZone/inputDefault/inputDefault",
+                "text": "每日语汇",
+                "iconPath": "static/tabbar/add-circle.png",
+                "selectedIconPath": "static/tabbar/add-circle (1).png"
+            },
+            {
+                "pagePath": "pages/homeZone/userInfoShow/userInfoShow",
+                "text": "实战应用",
+                "iconPath": "static/tabbar/edit.png",
+                "selectedIconPath": "static/tabbar/edit (1).png"
+            },
+            {
+                "pagePath": "pages/homeZone/userInfoShow/userInfoShow",
+                "text": "学习记录",
+                "iconPath": "static/tabbar/favorite.png",
+                "selectedIconPath": "static/tabbar/favorite (1).png"
+            },
+            {
+                "pagePath": "pages/homeZone/userInfoShow/userInfoShow",
+                "text": "用户中心",
+                "iconPath": "static/tabbar/user.png",
+                "selectedIconPath": "static/tabbar/user (1).png"
+            }
+        ],
+        "color": "#000000",
+        "selectedColor": "#1680b7"
+    },
+    "sitemapLocation": "sitemap.json"
+}
