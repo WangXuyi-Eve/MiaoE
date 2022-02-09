@@ -1,0 +1,32 @@
+<!--pages/outputZone/outputDefault/outputDefault.wxml-->
+<View class = "container">
+            <View class = "word_box">
+                <text class="word_text">{{word}}</text>
+                <text class="word_explanation">{{explanation}}</text>
+            </View>
+            <scroll-view class = "scroll">
+                <View class = "example_box">
+                    <text class="example_sentence">{{example1}}</text>
+                    <text class="example_empha">{{phrase}}</text>
+                    <text class="example_sentence">{{example2}}</text>
+                </View>
+                <View class = "more_box">
+                    <text class="more_sentence">{{more11}}</text>
+                    <text class="more_empha">{{phrase}}</text>
+                    <text class="more_sentence">{{more12}}</text>
+                </View>
+                <View class = "more_box">
+                    <text class="more_sentence">{{more21}}</text>
+                    <text class="more_empha">{{phrase}}</text>
+                    <text class="more_sentence">{{more22}}</text>
+                </View>
+                <View class = "more_box">
+                    <text class="more_sentence">{{more31}}</text>
+                    <text class="more_empha">{{phrase}}</text>
+                    <text class="more_sentence">{{more32}}</text>
+                </View>
+                <View class = "getMore_box">
+                    <text class="get_more">{{getMore}}</text>
+                </View>
+            </scroll-view>
+</View>

@@ -5,14 +5,47 @@ Page({
      * 页面的初始数据
      */
     data: {
+        userInfo: {},
+        motto: 'Hello World',
+        // orderItems
+        orderItems: [
+          {
+            typeId: 0,
+            name: '输入语料',
+            url: 'bill',
+            imageurl: '../../../static/tabbar/三花猫.png',
+          },
+          {
+            typeId: 1,
+            name: '输出预料',
+            url: 'bill',
+            imageurl: '../../../static/tabbar/三花猫.png',
+          },
+          {
+            typeId: 2,
+            name: '累计积分',
+            url: 'bill',
+            imageurl: '../../../static/tabbar/三花猫.png'
+          },
+          {
+            typeId: 3,
+            name: '连续签到',
+            url: 'bill',
+            imageurl: '../../../static/tabbar/布偶猫.png'
+          }
+        ],
+      },
 
-    },
-
+    toOrder: function () {
+        wx.navigateTo({
+          url: '../order/order'
+        })
+      },
     /**
      * 生命周期函数--监听页面加载
      */
-    onLoad: function (options) {
-
+    onLoad: function () {
+  
     },
 
     /**

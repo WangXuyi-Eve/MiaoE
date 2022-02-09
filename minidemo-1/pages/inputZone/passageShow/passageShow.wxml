@@ -1,2 +1,47 @@
 <!--pages/inputZone/passageShow/passageShow.wxml-->
-<text>pages/inputZone/passageShow/passageShow.wxml</text>
+<View class="container">
+            <View class="date_box">
+            <text class="date_text">{{date}}</text>
+            </View>
+            <View class="scroll">
+                <View class="title_box">
+                <text class="title">{{title}}</text>
+                </View>
+                <view class="saperate"></view>
+                <View class="passage_box">
+                <text class="beginterm" decode="true">{{term1}}</text>
+                <text class="passage" decode="true">{{passage1}}</text>
+                <text class="vocab"> {{vocab1}}</text>
+                <text class="passage" decode="true">{{passage2}}</text>
+                <text class="phrase" decode="true">{{phrase2}}</text>
+                <text class="passage" decode="true">{{passage3}}</text>
+
+                <View class = "betweenpara"></View>
+                <text class="beginpas" decode="true">{{passage4}}</text>
+                <text class="vocab" decode="true">{{vocab2}}</text>
+                <text class="passage" decode="true">{{passage5}}</text>
+                <text class="phrase" decode="true" bindtap="toOutput">{{phrase1}}</text>
+                <text class="passage" decode="true">{{passage6}}</text>
+
+                <View class = "betweenpara"></View>
+                <text class="beginpas" decode="true">{{passage7}}</text>
+                <text class="term" decode="true">{{term2}}</text>
+                <text class="passage" decode="true">{{passage8}}</text>
+                <text class="term" decode="true">{{term3}}</text>
+                </View>
+            </View>
+            <View class="saperate">
+            </View>
+            <view>
+            <text class="vocabtitle">Vocabulary:</text> <text class="words">{{vocab}}</text>
+            <View class = "betweenwords"></View>
+            <text class="phrasetitle">Phrase:</text> <text class="words">{{phrase}}</text>
+            <View class = "betweenwords"></View>
+            <text class="termtitle">Terminology:</text> <text class="words">{{term}}</text>
+            </view>
+            <View class="saperate">
+            </View>
+            <button class="btnStyle" hover-class="button-hover-class" bindtap="toOutput">
+              <Text class="btnText" >Practice</Text>
+            </button>
+        </View>

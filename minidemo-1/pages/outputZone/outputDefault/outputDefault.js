@@ -1,22 +1,22 @@
-// pages/inputZone/inputDefault/inputDefault.js
+// pages/outputZone/outputDefault/outputDefault.js
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-        date: "2022.1.27",
-        title: "Multiculturalism",
-        passage1:"Multiculturalism (cultural pluralism) refers to a mix of cultures and ethnicities within a particular place or nation-state. It can be understood as another way of speaking about multi-ethnic states, but also refers to government policies, particularly with respect to immigration.",
-        passage2:"Given that populations are arguably more mobile now, multiculturalism continues to be an issue in the context of education, social cohesion and social welfare systems.",
-        passage3:" Two phrases are often used to describe the United States of America as a multi-ethnic state. One is melting pot and the other salad bowl."
-
-    },
-
-    toHighlight: function (){
-        wx.navigateTo({
-          url: '/pages/inputZone/passageShow/passageShow',
-        })
+        word:"Context",
+        explanation:"n. 环境、上下文、来龙去脉",
+        example1:"Multiculturalism continues to be an issue ", 
+        phrase:"in the context of",
+        example2:"education, social cohesion and social welfate systems.",
+        more11:"1. The reality is that unless it is addressed ",
+        more12:" environmental issues, the economic sustainability and soundness of alternative contexts will become irrelevant.",
+        more21:"2. I am among many who have chosen to practice ",
+        more22:" a life of live and work and play in modern middle class America.",
+        more31:"3. Cause and effect are hard to figure ",
+        more32:" raising kids.",
+        geTmore:"More sentences"
     },
 
     /**

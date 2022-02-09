@@ -1,2 +1,60 @@
 <!--pages/homeZone/userInfoShow/userInfoShow.wxml-->
-<text>pages/homeZone/userInfoShow/userInfoShow.wxml</text>
+<view class="container">
+
+<view class ="userinfo">
+   <image class="userinfo-avatar" src="../../../static/tabbar/三花猫.png" background-size="cover"></image>
+   <text class="userinfo-nickname"> 三花猫猫头 </text>
+   <image class="account-bg"> </image>
+</view>
+
+<view class="separate"></view>
+
+
+<view class="order" catchtap="toOrder">
+  <text class="myorder-text">我的学习</text>
+  <text class="myorderlook-text">查看学习记录</text>
+  <image class="next-image" src="../../../static/icons/arrow-right.png"></image>
+</view>
+<view class="line"></view>
+
+<view class="navs">
+  <block wx:for-items="{{orderItems}}" wx:key="name">
+    <view class="nav-item" catchtap="toOrder" data-type="{{item.name}}" data-typeid="{{item.typeId}}">
+      <image src="{{item.imageurl}}" class="nav-image" />
+      <text>{{item.name}}</text>
+    </view>
+  </block>
+</view>
+
+<view class="separate"></view>
+<view class="person-list">
+  <view class="list-item">
+    <image class="item-image" src="../../../static/tabbar/蓝猫.png"></image>
+    <text class="item-text">我的输入</text>
+  </view>
+  <view class="person-line"></view>
+  <view class="list-item">
+    <image class="item-image" src="../../../static/tabbar/蓝猫.png"></image>
+    <text class="item-text">我的输出</text>
+  </view>
+  <view class="person-line"></view>
+  <view class="list-item">
+    <image class="item-image" src="../../../static/tabbar/蓝猫.png"></image>
+    <text class="item-text">学习详情</text>
+  </view>
+  <view class="person-line"></view>
+  <view class="list-item">
+    <image class="item-image" src="../../../static/tabbar/蓝猫.png"></image>
+    <text class="item-text">信息修改</text>
+  </view>
+  <view class="person-line"></view>
+  <view class="list-item">
+    <image class="item-image" src="../../../static/tabbar/蓝猫.png"></image>
+    <text class="item-text">会员充值</text>
+  </view>
+</view>
+<view class="separate"></view>
+
+
+
+</view>

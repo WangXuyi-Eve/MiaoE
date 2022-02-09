@@ -1,0 +1,71 @@
+/* pages/outputZone/outputDefault/outputDefault.wxss */
+.container {
+    flex: 1;
+}
+.scroll {
+    background-color: whitesmoke;
+}
+.word_box {
+    padding-top: 8rpx;
+    padding-bottom: 8rpx;
+}
+.word_text {
+    color: black;
+    font-size: 40rpx;
+    font-weight: bolder;
+    padding-left: 10rpx;
+    padding-right: 10rpx;
+}
+.word_explanation {
+    color: rgb(206, 116, 7);
+    font-size: 30rpx;
+
+}
+.example_box {
+    background-color: aliceblue;
+    padding-top: 8rpx;
+    padding-bottom: 8rpx;
+    padding-right: 10rpx;
+    padding-left: 10rpx;
+}
+.example_sentence {
+    color: black;
+    font-size: 27rpx;
+    line-height: 70rpx;
+    padding-right: 10rpx;
+    padding-left: 10rpx;
+}
+.example_empha {
+    color: red;
+    font-size: 27rpx;
+    line-height: 70rpx;
+
+}
+.more_box {
+    padding-top: 3rpx;
+    padding-bottom: 3rpx;
+    padding-right: 10rpx;
+    padding-left: 10rpx;
+}
+.more_sentence {
+    color: darkblue;
+    font-size: 27rpx;
+    line-height: 70rpx;
+}
+.more_empha {
+    color: darkorange;
+    font-size: 27rpx;
+    line-height: 70rpx;
+}
+.getMore_box {
+    padding-top: 16rpx;
+    padding-bottom: 8rpx;
+    padding-left: 10rpx;
+    padding-right: 10rpx;
+}
+.getMore_text {
+    color: blue;
+    font-size: 15rpx;
+    line-height: 40rpx;
+    text-decoration: underline;
+}

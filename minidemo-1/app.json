@@ -2,7 +2,9 @@
     "pages": [
         "pages/homeZone/userInfoShow/userInfoShow",
         "pages/inputZone/passageShow/passageShow",
-        "pages/inputZone/inputDefault/inputDefault"
+        "pages/inputZone/inputDefault/inputDefault",
+        "pages/inputZone/passageSearch/passageSearch",
+        "pages/outputZone/outputDefault/outputDefault"
     ],
     "window": {
         "navigationBarBackgroundColor": "#a4c2f4",
@@ -18,14 +20,14 @@
                 "selectedIconPath": "static/tabbar/add-circle (1).png"
             },
             {
-                "pagePath": "pages/homeZone/userInfoShow/userInfoShow",
+                "pagePath": "pages/outputZone/outputDefault/outputDefault",
                 "text": "实战应用",
                 "iconPath": "static/tabbar/edit.png",
                 "selectedIconPath": "static/tabbar/edit (1).png"
             },
             {
-                "pagePath": "pages/homeZone/userInfoShow/userInfoShow",
-                "text": "学习记录",
+                "pagePath": "pages/inputZone/passageSearch/passageSearch",
+                "text": "文献广场",
                 "iconPath": "static/tabbar/favorite.png",
                 "selectedIconPath": "static/tabbar/favorite (1).png"
             },

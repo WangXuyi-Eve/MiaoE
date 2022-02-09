@@ -1,2 +1,24 @@
 <!--pages/inputZone/inputDefault/inputDefault.wxml-->
-<text>pages/inputZone/inputDefault/inputDefault.wxml</text>
+<View class="container">
+            <View class="date_box">
+            <text class="date_text">{{date}}</text>
+            </View>
+            <View class="scroll">
+                <View class="title_box">
+                <text class="title">{{title}}</text>
+                </View>
+                <view class="saperate"></view>
+                <View class="passage_box">
+                <text class="passage" decode="true">{{passage1}}</text>
+                <View class = "betweenpara"></View>
+                <text class="passage" decode="true">{{passage2}}</text>
+                <View class = "betweenpara"></View>
+                <text class="passage" decode="true">{{passage3}}</text>
+                </View>
+            </View>
+            <View class="saperate">
+            </View>
+            <button class="btnStyle" hover-class="button-hover-class" bindtap="toHighlight">
+              <Text class="btnText" >Highlight</Text>
+            </button>
+        </View>
