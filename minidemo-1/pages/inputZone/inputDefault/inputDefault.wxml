@@ -18,7 +18,13 @@
             </View>
             <View class="saperate">
             </View>
-            <button class="btnStyle" hover-class="button-hover-class" bindtap="toHighlight">
+            <button class="btnStyleHigh" hover-class="button-hover-class-high" bindtap="toHighlight">
               <Text class="btnText" >Highlight</Text>
             </button>
+            <button class="btnStyleMore" hover-class="button-hover-class-more" bindtap="toMore">
+              <Text class="btnText" >More</Text>
+            </button>
+            <!-- <button class="btnStyleSave" hover-class="button-hover-class-save">
+              <Text class="btnText" >Save</Text>
+            </button> -->
         </View>

@@ -20,7 +20,7 @@
 <view class="navs">
   <block wx:for-items="{{orderItems}}" wx:key="name">
     <view class="nav-item" catchtap="toOrder" data-type="{{item.name}}" data-typeid="{{item.typeId}}">
-      <image src="{{item.imageurl}}" class="nav-image" />
+      <text class="usernumber"> {{item.content}}</text>
       <text>{{item.name}}</text>
     </view>
   </block>
@@ -54,7 +54,8 @@
   </view>
 </view>
 <view class="separate"></view>
-
-
+<button class="btnStyle" hover-class="button-hover-class" bindtap="toLogout">
+    <Text class="btnText" >退出</Text>
+</button>
 
 </view>

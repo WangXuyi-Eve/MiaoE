@@ -13,25 +13,25 @@ Page({
             typeId: 0,
             name: '输入语料',
             url: 'bill',
-            imageurl: '../../../static/tabbar/三花猫.png',
+            content: 1
           },
           {
             typeId: 1,
             name: '输出预料',
             url: 'bill',
-            imageurl: '../../../static/tabbar/三花猫.png',
+            content: 2
           },
           {
             typeId: 2,
             name: '累计积分',
             url: 'bill',
-            imageurl: '../../../static/tabbar/三花猫.png'
+            content: 3
           },
           {
             typeId: 3,
             name: '连续签到',
             url: 'bill',
-            imageurl: '../../../static/tabbar/布偶猫.png'
+            content: 4
           }
         ],
       },

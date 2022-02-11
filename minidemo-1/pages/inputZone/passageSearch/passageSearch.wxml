@@ -1,6 +1,8 @@
 <!--pages/inputZone/passageSearch/passageSearch.wxml-->
 
 <view class='container'>
+  <input class='inputbox'> </input>
+  <view class="separate"> </view>
   <block wx:for="{{language}}" wx:key="index">
     <view class='text-content'>{{item}}</view> 
   </block>

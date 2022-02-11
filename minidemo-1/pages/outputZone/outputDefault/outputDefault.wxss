@@ -69,3 +69,34 @@
     line-height: 40rpx;
     text-decoration: underline;
 }
+.inputbox{
+    border-style: solid;
+    border-color: slategray;
+  }
+  .separate{
+    height: 20rpx;
+  }
+  .btnStyle {
+    position: absolute;
+    height: 80rpx;
+    width: 180rpx;
+    background-color: rgb(240, 214, 101);
+    justify-content: center;
+    right: 20rpx;
+   
+}
+.button-hover-class {
+    position: absolute;
+    height: 80rpx;
+    width: 180rpx;
+    background-color: rgb(167, 149, 72);
+    justify-content: center;
+    right: 20rpx;
+}
+
+.btnText {
+    color: white;
+    font-size: 27rpx;
+    font-weight: 600;
+    text-align: center;
+}

@@ -19,3 +19,10 @@ page{
   border-bottom: 1rpx solid #F5F5F5;
   background-color: #FFFFFF
 }
+.separate{
+  height: 20rpx;
+}
+.inputbox{
+  border-style: solid;
+  border-color: slategray;
+}

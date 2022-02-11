@@ -39,7 +39,7 @@
     margin-right: 10rpx;
     margin-left: 10rpx;
 }
-.btnStyle {
+.btnStyleHigh {
     position: absolute;
     height: 80rpx;
     width: 180rpx;
@@ -48,7 +48,7 @@
     right: 20rpx;
    
 }
-.button-hover-class {
+.button-hover-class-high {
     position: absolute;
     height: 80rpx;
     width: 180rpx;
@@ -56,7 +56,36 @@
     justify-content: center;
     right: 20rpx;
 }
-
+.btnStyleMore {
+    position: relative;
+    height: 80rpx;
+    width: 180rpx;
+    background-color: rgb(240, 214, 101);
+    justify-content: center;
+   
+}
+.button-hover-class-more {
+    position: relative;
+    height: 80rpx;
+    width: 180rpx;
+    background-color: rgb(167, 149, 72);
+    justify-content: center;
+}
+.btnStyleSave {
+    position: relative;
+    height: 80rpx;
+    width: 180rpx;
+    background-color: rgb(240, 214, 101);
+    justify-content: center;
+   
+}
+.button-hover-class-save {
+    position: relative;
+    height: 80rpx;
+    width: 180rpx;
+    background-color: rgb(167, 149, 72);
+    justify-content: center;
+}
 .btnText {
     color: white;
     font-size: 27rpx;

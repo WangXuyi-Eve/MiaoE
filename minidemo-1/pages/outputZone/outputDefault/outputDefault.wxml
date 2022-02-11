@@ -29,4 +29,10 @@
                     <text class="get_more">{{getMore}}</text>
                 </View>
             </scroll-view>
+            <view class="separate"> </view>
+            <input class="inputbox"> </input>
+            <view class="separate"> </view>
+            <button class="btnStyle" hover-class="button-hover-class" bindtap="toOutput">
+              <Text class="btnText" >Save</Text>
+            </button>
 </View>

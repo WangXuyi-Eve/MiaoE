@@ -31,7 +31,7 @@ Page({
     },
 
     toOutput: function (){
-        wx.navigateTo({
+        wx.switchTab({
           url: '/pages/outputZone/outputDefault/outputDefault',
         })
     },

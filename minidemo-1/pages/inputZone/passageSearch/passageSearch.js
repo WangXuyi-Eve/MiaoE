@@ -21,7 +21,11 @@ Page({
         // 更多数据...
       ]
     },
-    
+    toMore: function (){
+      wx.switchTab({
+        url: '../../outputZone/outputDefault/outputDefault',
+      })
+  },
  
     /**
      * 生命周期函数--监听页面加载
