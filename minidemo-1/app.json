@@ -4,7 +4,8 @@
         "pages/inputZone/passageShow/passageShow",
         "pages/inputZone/inputDefault/inputDefault",
         "pages/inputZone/passageSearch/passageSearch",
-        "pages/outputZone/outputDefault/outputDefault"
+        "pages/outputZone/outputDefault/outputDefault",
+        "pages/sharingZone/openSquare/openSquare"
     ],
     "window": {
         "navigationBarBackgroundColor": "#a4c2f4",
@@ -26,8 +27,8 @@
                 "selectedIconPath": "static/tabbar/edit (1).png"
             },
             {
-                "pagePath": "pages/inputZone/passageSearch/passageSearch",
-                "text": "文献广场",
+                "pagePath": "pages/sharingZone/openSquare/openSquare",
+                "text": "分享广场",
                 "iconPath": "static/tabbar/favorite.png",
                 "selectedIconPath": "static/tabbar/favorite (1).png"
             },

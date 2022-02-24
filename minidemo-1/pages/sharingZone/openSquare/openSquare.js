@@ -1,51 +1,20 @@
-// pages/homeZone/userInfoShow/userInfoShow.js
+// pages/sharingZone/openSquare/openSquare.js
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-        userInfo: {},
-        motto: 'Hello World',
-        // orderItems
-        orderItems: [
-          {
-            typeId: 0,
-            name: '输入语料',
-            url: 'bill',
-            content: 1
-          },
-          {
-            typeId: 1,
-            name: '输出语料',
-            url: 'bill',
-            content: 2
-          },
-          {
-            typeId: 2,
-            name: '累计积分',
-            url: 'bill',
-            content: 3
-          },
-          {
-            typeId: 3,
-            name: '连续签到',
-            url: 'bill',
-            content: 4
-          }
-        ],
-      },
+        navTab: ["推荐", "圆桌", "热门", "收藏"],
+        currentNavtab: "0",
 
-    toOrder: function () {
-        wx.navigateTo({
-          url: '../order/order'
-        })
-      },
+    },
+
     /**
      * 生命周期函数--监听页面加载
      */
-    onLoad: function () {
-  
+    onLoad: function (options) {
+
     },
 
     /**

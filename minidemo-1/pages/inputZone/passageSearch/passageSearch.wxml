@@ -1,7 +1,16 @@
 <!--pages/inputZone/passageSearch/passageSearch.wxml-->
 
 <view class='container'>
-  <input class='inputbox'> </input>
+  <view class="search flex-wrp">
+      <view class="search-left flex-item">
+          <image src="/static/icons/search.png"></image>
+          <input placeholder="搜索文章标题或类型" placeholder-class="search-placeholder"/>
+      </view>
+      <view class="search-right flex-item" bindtap="upper">
+          <image src="/static/icons/lighting.png"></image>
+      </view>
+  </view>
+
   <view class="separate"> </view>
   <block wx:for="{{language}}" wx:key="index">
     <view class='text-content'>{{item}}</view> 

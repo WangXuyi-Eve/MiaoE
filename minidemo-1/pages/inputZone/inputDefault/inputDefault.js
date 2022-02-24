@@ -20,8 +20,8 @@ Page({
     },
 
     toMore: function (){
-        wx.switchTab({
-          url: '../passageSearch/passageSearch',
+        wx.navigateTo({
+          url: '/pages/inputZone/passageSearch/passageSearch',
         })
     },
 
